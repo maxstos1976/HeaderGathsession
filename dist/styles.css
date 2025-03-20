@@ -241,4 +241,8 @@ img.face {
   font-weight: bold;
 }
 
+.buttons a img {
+  width: 3rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
