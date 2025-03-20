@@ -1,0 +1,28 @@
+/* Layout da página */
+.page {
+  max-width: 81.25rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.circleback1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border: 1px solid #3f3f3f;
+  border-radius: 100%;
+  top: 410px;
+  right: 30px;
+}
+
+.circleback2 {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid #3f3f3f;
+  border-radius: 100%;
+  top: 200px;
+  right: -130px;
+}

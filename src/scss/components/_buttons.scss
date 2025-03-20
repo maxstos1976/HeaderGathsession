@@ -1,0 +1,39 @@
+/* Estilo de los botones */
+.buttons {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.875rem;
+  font-family: poppins, sans-serif;
+}
+
+.buttons a {
+  width: 12rem;
+  height: 3.5rem;
+  text-align: center;
+  padding: 0.95rem 1.25rem;
+  font-size: 0.9rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.buttons a:hover {
+  position: relative;
+  top: 0.1rem;
+  transition: 0.5s;
+}
+
+.buttons a:nth-child(1) {
+  background-color: $pink-color;
+  color: #ffffff;
+  border-radius: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.buttons a:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -1,0 +1,44 @@
+/* Estilo das imagens */
+img.face {
+  width: 100%;
+  border-radius: 4.6875rem; /* 75px convertido para rem */
+}
+
+/* Grid de imagens */
+.imagens {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5625rem;
+  width: 80%;
+  z-index: 2;
+}
+
+.imagens figure {
+  margin: 0;
+}
+
+/* Estilos individuales para las faces */
+.face1 {
+  background-color: #6f42c1;
+}
+
+.face2 {
+  background-color: #60d3d9;
+}
+
+.face3 {
+  background-color: #f4b840;
+  position: relative;
+  top: 7rem;
+}
+
+.face4 {
+  background-color: $pink-color;
+}
+
+.face5 {
+  background-color: #ff7e29;
+  position: relative;
+  top: -13.85rem;
+}

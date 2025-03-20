@@ -1,0 +1,244 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+header figure {
+  margin: 0;
+}
+
+header figcaption {
+  display: none;
+}
+
+header figure img {
+  width: 10.6875rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin-right: 6.58rem;
+}
+
+header nav ul a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+header nav ul a:hover {
+  opacity: 1;
+}
+
+.sublin {
+  background-color: rgb(255, 35, 150);
+  position: relative;
+  top: 30px;
+  left: 4.1rem;
+  border-radius: 1rem;
+  width: 1.6rem;
+  height: 0.2rem;
+}
+
+/* Layout da página */
+.page {
+  max-width: 81.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+.circleback1 {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border: 1px solid #3f3f3f;
+  border-radius: 100%;
+  top: 410px;
+  right: 30px;
+}
+
+.circleback2 {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid #3f3f3f;
+  border-radius: 100%;
+  top: 200px;
+  right: -130px;
+}
+
+/* Estilo del hero */
+.hero {
+  width: 80%;
+}
+
+.hero__content {
+  font-size: 2.5rem;
+  max-width: 84%;
+}
+
+.hero__content h1 {
+  margin-top: 3rem;
+  line-height: 5rem;
+  width: 38rem;
+  word-spacing: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.hero__content p {
+  font-family: Poppins, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #ffffff;
+  opacity: 0.5;
+  line-height: 2rem;
+  width: 35rem;
+  word-spacing: 0.1rem;
+}
+
+/* Layout das categorias */
+.categories {
+  margin-top: 5rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.categories article {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.categories article h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 0.9rem;
+  width: 1rem;
+  margin-right: 3rem;
+}
+
+.categories article img {
+  width: 2.75rem;
+}
+
+.categories article:nth-child(2) img,
+.categories article:nth-child(3) img {
+  background-color: #3f3f3f;
+  padding: 0.6rem;
+  border-radius: 0.75rem;
+}
+
+/* Estilo del contenido central */
+.center_total_content {
+  display: flex;
+  flex-direction: row;
+  font-family: Merriweather, serif;
+  margin-top: 3.125rem;
+  overflow: hidden;
+}
+
+/* Estilo geral do corpo */
+body {
+  background-color: #2b2d38;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+}
+
+/* Estilo das imagens */
+img.face {
+  width: 100%;
+  border-radius: 4.6875rem; /* 75px convertido para rem */
+}
+
+/* Grid de imagens */
+.imagens {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5625rem;
+  width: 80%;
+  z-index: 2;
+}
+
+.imagens figure {
+  margin: 0;
+}
+
+/* Estilos individuales para las faces */
+.face1 {
+  background-color: #6f42c1;
+}
+
+.face2 {
+  background-color: #60d3d9;
+}
+
+.face3 {
+  background-color: #f4b840;
+  position: relative;
+  top: 7rem;
+}
+
+.face4 {
+  background-color: rgb(255, 35, 150);
+}
+
+.face5 {
+  background-color: #ff7e29;
+  position: relative;
+  top: -13.85rem;
+}
+
+/* Estilo de los botones */
+.buttons {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 1.875rem;
+  font-family: poppins, sans-serif;
+}
+
+.buttons a {
+  width: 12rem;
+  height: 3.5rem;
+  text-align: center;
+  padding: 0.95rem 1.25rem;
+  font-size: 0.9rem;
+  border-radius: 0.75rem;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.buttons a:hover {
+  position: relative;
+  top: 0.1rem;
+  transition: 0.5s;
+}
+
+.buttons a:nth-child(1) {
+  background-color: rgb(255, 35, 150);
+  color: #ffffff;
+  border-radius: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.buttons a:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
